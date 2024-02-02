@@ -1,0 +1,63 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 19px;
+  }
+  .global__title{
+    font-weight: bold;
+    color: white;
+    padding: 17px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .card:hover {
+    transform: scale(1.02); 
+    border-radius: 17px
+  }
+  .poster__img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 17px;
+  }
+  .movie__average{
+    color: black;
+    position: absolute;
+    inset: 0px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 100%;
+}
+.average_bg{
+    background: rgba(230, 230, 230, 0.69);
+    position: absolute;
+    bottom: 0;
+    left: 19px;
+    padding: 1px;
+    border-radius: 2px
+}
+  .movie__title{
+    color: white;
+  }
+  .hover__text {
+    position: absolute;
+    top: 81%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .card:hover .hover__text{
+    opacity: 1;
+    z-index: 7;
+  }
+  .card:hover .movie__average{
+    opacity: 1;
+    background-color: rgba(4, 4, 4, 0.677);
+  }
+  
+  

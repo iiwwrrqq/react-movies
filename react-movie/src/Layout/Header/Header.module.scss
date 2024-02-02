@@ -1,0 +1,33 @@
+header{
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 19px;
+        &__left{
+            .left__link{
+                text-decoration: none;
+                font-size: 29px;
+                color: white;
+            }
+            .left__logo{
+                width: 35px;
+                height: 35px;
+                transform: translateY(7px);
+                margin-right: 7px;
+            }
+        }
+        &__right{
+            nav ul{
+                display: flex;
+                gap: 29px;
+                list-style: none;
+                .right__link{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

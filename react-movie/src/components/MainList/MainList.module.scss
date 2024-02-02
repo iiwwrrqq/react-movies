@@ -1,0 +1,53 @@
+
+.wrap{
+    margin-bottom: 29px;
+    .wrap__view{
+        display: flex;
+        justify-content: end;
+        margin-bottom: 17px;
+        .view__button{
+            border: 1px solid white;
+            border-radius: 19px;
+            padding: 7px;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    padding-top: 29px;
+    .wrap__title{
+        color: white;
+        padding: 17px;
+    }
+    .poster__img{
+        width: 690px;
+        height: 470px;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 17px;
+    }
+    .movie__title{
+        color: white;
+        padding: 17px;
+        font-weight: bold;
+        font-size: 22px;
+        position: absolute;
+        bottom: 17px;
+    }
+    .movie__average{
+        color: black;
+        position: absolute;
+        bottom: 11px;
+    }
+    .average_bg{
+        background: rgba(230, 230, 230, 0.69);
+        position: absolute;
+        bottom: 0;
+        left: 19px;
+        padding: 1px;
+        border-radius: 2px
+    }
+    .card{
+        border-radius: 8px;
+    }
+}
